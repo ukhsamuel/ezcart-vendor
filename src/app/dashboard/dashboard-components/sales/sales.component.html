@@ -1,0 +1,146 @@
+<!-- <mat-card>
+  <mat-card-content>
+    <h4 class="mb-32">Sales Overview</h4>
+
+    <div class="max-width">
+      <apx-chart [series]="activeusercardChartOptions.series" [dataLabels]="activeusercardChartOptions.dataLabels"
+        [chart]="activeusercardChartOptions.chart" [legend]="activeusercardChartOptions.legend"
+        [xaxis]="activeusercardChartOptions.xaxis" [grid]="activeusercardChartOptions.grid"
+        [stroke]="activeusercardChartOptions.stroke" [tooltip]="activeusercardChartOptions.tooltip"
+        [plotOptions]="activeusercardChartOptions.plotOptions">
+      </apx-chart>
+    </div>
+  </mat-card-content>
+</mat-card> -->
+
+<div class="flex flex-row space-x-4">
+  <div class="flex flex-col space-y-4 basis-7/12">
+    <div class="flex flex-row space-x-4 h-36 basis-7/12">
+      <div class="flex basis-6/12 p-12 rounded-xl bg-white h-48">
+        <div class="flex flex-1 flex-col space-y-4">
+          <div class="flex flex-1 flex-row space-x-2 items-center align-middle border-b border-gray-100">
+            <i-feather name="x-circle" class="mt-n3  feather-base text-orange-400"></i-feather>
+            <p class="text-slate-500 font-extralight italic">New Net Income</p>
+          </div>
+          <div class="flex flex-1 flex-row">
+            <div class="flex basis-8/12 flex-col space-y-1">
+              <p class="font-bold text-black text-3xl">N1.31m</p>
+              <p class="text-gray-500">- 0,5% from last week</p>
+            </div>
+            <div class="flex basis-4/12">
+              <p>--chart here--</p>
+              <!-- <apx-chart [series]="activeusercardChartOptions.series" [dataLabels]="activeusercardChartOptions.dataLabels"
+                [chart]="activeusercardChartOptions.chart" [legend]="activeusercardChartOptions.legend"
+                [xaxis]="activeusercardChartOptions.xaxis" [grid]="activeusercardChartOptions.grid"
+                [stroke]="activeusercardChartOptions.stroke" [tooltip]="activeusercardChartOptions.tooltip"
+                [plotOptions]="activeusercardChartOptions.plotOptions">
+              </apx-chart> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex basis-6/12 p-12 rounded-xl bg-white h-48">
+        <div class="flex flex-1 flex-col space-y-4">
+          <div class="flex flex-1 flex-row space-x-2 items-center align-middle border-b border-gray-100">
+            <i-feather name="x-circle" class="mt-n3  feather-base text-orange-400"></i-feather>
+            <p class="text-slate-500 font-extralight italic">Total Order</p>
+          </div>
+          <div class="flex flex-1 flex-row">
+            <div class="flex basis-8/12 flex-col space-y-1">
+              <p class="font-bold text-black text-3xl">1,256</p>
+              <p class="text-gray-500">+ 1,0% from last week</p>
+            </div>
+            <div class="flex basis-4/12">
+              <p>--chart here--</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-row space-x-4  h-36 basis-7/12">
+     
+      <div class="flex basis-6/12 p-12 rounded-xl bg-white h-48">
+        <div class="flex flex-1 flex-col space-y-4">
+          <div class="flex flex-1 flex-row space-x-2 items-center align-middle border-b border-gray-100">
+            <i-feather name="x-circle" class="mt-n3  feather-base text-orange-400"></i-feather>
+            <p class="text-slate-500 font-extralight italic">Average Sales</p>
+          </div>
+          <div class="flex flex-1 flex-row">
+            <div class="flex basis-8/12 flex-col space-y-1">
+              <p class="font-bold text-black text-3xl">N25k</p>
+              <p class="text-gray-500">+ 1,0% from last week</p>
+            </div>
+            <div class="flex basis-4/12">
+              <p>--chart here--</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex basis-6/12 p-12 rounded-xl bg-white">
+        <div class="flex flex-1 flex-col space-y-4">
+          <div class="flex flex-1 flex-row space-x-2 items-center align-middle border-b border-gray-100">
+            <i-feather name="x-circle" class="mt-n3  feather-base text-orange-400"></i-feather>
+            <p class="text-slate-500 font-extralight italic">Impressions</p>
+          </div>
+          <div class="flex flex-1 flex-row">
+            <div class="flex basis-8/12 flex-col space-y-1">
+              <p class="font-bold text-black text-3xl">3.2K</p>
+              <p class="text-gray-500">+ 1,0% from last week</p>
+            </div>
+            <div class="flex basis-4/12">
+              <p>--chart here--</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex basis-5/12">
+
+    <div class="flex flex-1  p-12 rounded-xl bg-white">
+      <div class="flex flex-1 flex-col space-y-4">
+        <div class="flex flex-1 items-center align-middle">
+          <p class="text-black text-xl font-bold">Sales history</p>
+        </div>
+        <div class="flex flex-col space-y-4">
+          <div class="flex flex-1 flex-row space-x-1f">
+           <div class="flex basis-3/12">
+             <img src="assets/images/u3.webp" class="w-16 h-16 rounded-md" alt="">
+           </div>
+           <div class="flex basis-9/12 flex-col space-y-2">
+             <p class="text-gray-400 font-extralight italic">Rompi Berkancing</p>
+             <div class="flex flex-row space-x-2">
+               <p class="font-extralight text-orange-300 ">N400.98</p>
+               <p class="text-gray-400">April 29, 2022</p>
+             </div>
+           </div>
+          </div>
+         <div class="flex flex-1 flex-row space-x-1f">
+          <div class="flex basis-3/12">
+            <img src="assets/images/u3.webp" class="w-16 h-16 rounded-md" alt="">
+          </div>
+          <div class="flex basis-9/12 flex-col space-y-2">
+            <p class="text-gray-400 font-extralight italic">Rompi Berkancing</p>
+            <div class="flex flex-row space-x-2">
+              <p class="font-extralight text-orange-300 ">N400.98</p>
+              <p class="text-gray-400">April 29, 2022</p>
+            </div>
+          </div>
+         </div>
+         <div class="flex flex-1 flex-row space-x-1f">
+          <div class="flex basis-3/12">
+            <img src="assets/images/u3.webp" class="w-16 h-16 rounded-md" alt="">
+          </div>
+          <div class="flex basis-9/12 flex-col space-y-2">
+            <p class="text-gray-400 font-extralight italic">Rompi Berkancing</p>
+            <div class="flex flex-row space-x-2">
+              <p class="font-extralight text-orange-300 ">N400.98</p>
+              <p class="text-gray-400">April 29, 2022</p>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
